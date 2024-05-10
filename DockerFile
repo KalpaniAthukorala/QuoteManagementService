@@ -1,0 +1,4 @@
+FROM openjdk:17
+ADD target/quote_management_ms.jar quote_management_ms.jar
+EXPOSE 8081
+ENTRYPOINT ["java","-jar","quote_management_ms.jar"]
