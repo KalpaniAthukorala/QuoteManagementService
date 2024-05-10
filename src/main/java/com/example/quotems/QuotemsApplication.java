@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin
 @SpringBootApplication
-public class UsermsApplication {
+public class QuotemsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UsermsApplication.class, args);
+		SpringApplication.run(QuotemsApplication.class, args);
 	}
 
 	@Bean
